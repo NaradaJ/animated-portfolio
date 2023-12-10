@@ -1,0 +1,33 @@
+/* navbar.scss */
+
+.navbar {
+    height: 100vh;  /* Set a height, adjust as needed */
+    
+    .wrapper {
+      max-width: 1366px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #2A3133;
+          
+
+      span{
+        font-weight: bold;
+      }
+
+      .social{
+        display: flex;
+        gap: 20px;
+        
+
+        img{
+            width: 18px;
+            height: 18px;
+        }
+      }
+    }
+  
+
+  }
+  
