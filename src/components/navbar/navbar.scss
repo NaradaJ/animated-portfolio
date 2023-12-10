@@ -1,11 +1,11 @@
 /* navbar.scss */
 
 .navbar {
-    height: 100vh;  /* Set a height, adjust as needed */
+  height: 100px;  /* Set a height, adjust as needed */
     
     .wrapper {
-      max-width: 1366px;
-      margin: auto;
+      max-width: 960px;
+      // margin: auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
