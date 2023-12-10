@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import "./navbar.scss";
+import Sidebar from "../sidebar/Sidebar";
 
 const Navbar = () => {
   const containerVariants = {
@@ -27,7 +28,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       Navbar
-      {/* Sidebar */}
+      <Sidebar/>
       <motion.div variants={containerVariants} initial="hidden" animate="visible" className="wrapper">
         <motion.span variants={textVariants} style={{ display: 'inline-block' }}>
           NArada Kasun

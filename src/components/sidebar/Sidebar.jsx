@@ -1,9 +1,12 @@
-
+import "./sidebar.scss"
 const Sidebar = () => {
   return (
-    <div>
-      
+    <div className="sidebar">
+        <div className="bg">
+            Links
+            </div>
+                  
     </div>
   )
-
+  }
 export default Sidebar
