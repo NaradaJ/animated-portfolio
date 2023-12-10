@@ -1,10 +1,9 @@
-import React from 'react'
 
 const Togglebutton = () => {
   return (
-    <div>
-      Button
-    </div>
+    <button className='button'>
+        Button
+    </button>
   )
 }
 

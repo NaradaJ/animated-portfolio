@@ -1,11 +1,14 @@
-import "./sidebar.scss"
+import Togglebutton from "./Togglebutton"
+import "./sidebar.scss" 
+
+
 const Sidebar = () => {
   return (
-    <div className="sidebar">
+    <div className="side">
         <div className="bg">
-            Links
-            </div>
-                  
+            <Links/>
+            <Togglebutton/>
+            </div>            
     </div>
   )
   }
