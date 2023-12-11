@@ -1,19 +1,18 @@
-.side{
+.sidebar{
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     align-items: center;
-    background-color: #606364;
-    color: #353a3a;
-
-
-
+    justify-content: center;
+    background-color: white;
+    color: black;
 
     .bg{
         position: fixed;
         top: 0;
         left: 0;
-        width: 400px;
+        max-width: 400px;
         background: white;
+
 
         .links{
             position: absolute;
@@ -23,24 +22,30 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            gap: 20px;
 
 
-
-
-            .button{
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 85%;
-                    position: fixed;
-                    top: 25%;
-                    height: 25px;
-                    background-color: transparent;
-                    border: none;
+            a{
+                font-size: 40px;
+                
             }
-
 
         }
 
-        
+
+    button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: fixed;
+        top: 25px;
+        height: 25px;
+        background-color: transparent;
+        border: none;
+
+
+
+
+    }    
     }
 }
